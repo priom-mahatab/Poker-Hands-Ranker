@@ -5,12 +5,11 @@ This Python script evaluates and ranks poker hands based on standard poker hand 
 ### Input: 
 The script takes poker hands as input, where each hand is a list of 5 cards. Each card is represented as a string containing its value and suit (e.g., '9H' for 9 of Hearts).
 ### Card Value and Suit:
-value(card): Returns the numeric value of the card. Face cards like Ace, King, Queen, and Jack are converted into 14, 13, 12, and 11, respectively.
+```value(card)```: Returns the numeric value of the card. Face cards like Ace, King, Queen, and Jack are converted into 14, 13, 12, and 11, respectively.
 
-suit(card): Returns the suit of the card (Hearts, Diamonds, Clubs, or Spades).
+```suit(card)```: Returns the suit of the card (Hearts, Diamonds, Clubs, or Spades).
 ### Flush Detection:
-is_flush(cards): Checks if all the cards in a hand have the same suit (flush).
-There is a separate portion dedicated to deck formation and shuffling. Two hands are generated through a dealing function and the deck is also adjusted after each deal.
+```is_flush(cards)```: Checks if all the cards in a hand have the same suit (flush).
 
 # Installation
 1. Clone the repository or download the poker_hands_ranker.py script.
