@@ -18,9 +18,7 @@ The script takes poker hands as input, where each hand is a list of 5 cards. Eac
 # Usage
 1. Run the script in your Python environment.
 
-   ```python poker_hands_ranker.py```
+```python poker_hands_ranker.py```
 3. Modify the test_case variable in the script to input your own set of poker hands for ranking.
 
- ```test_case = [['9H', '8H', '7H', '6H', '5H'], ['AH', 'AS', 'AD', 'AC', '7D'], ...]```
-# Built With
-Built with Python 3.12
+```test_case = [['9H', '8H', '7H', '6H', '5H'], ['AH', 'AS', 'AD', 'AC', '7D'], ...]```
